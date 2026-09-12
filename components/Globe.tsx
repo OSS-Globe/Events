@@ -14,6 +14,7 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
   const globeRef = useRef<any>(null);
   const [windowDimensions, setWindowDimensions] = useState({ width: 800, height: 600 });
   const [mounted, setMounted] = useState(false);
+  const [isZoomed, setIsZoomed] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -28,19 +29,6 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  useEffect(() => {
-    if (globeRef.current && mounted) {
-      // Auto-rotate setup
-      const controls = globeRef.current.controls();
-      controls.autoRotate = true;
-      controls.autoRotateSpeed = 0.5;
-      controls.enableZoom = false; // Disable scroll to zoom to not trap the page scroll
-      
-      // Point camera at Europe initially since many events are there
-      globeRef.current.pointOfView({ lat: 40, lng: 10, altitude: 2 });
-    }
-  }, [mounted]);
 
   if (!mounted) {
     return <div className="h-[600px] w-full flex items-center justify-center bg-base"><div className="w-16 h-16 border-4 border-accent-blue/30 border-t-accent-blue rounded-full animate-spin"></div></div>;
@@ -65,18 +53,45 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
       };
     });
 
+  const globeSize = Math.min(windowDimensions.width - 32, 700);
+
   return (
-    <div className="relative w-full overflow-hidden rounded-xl border border-surface-highlight bg-base/50 flex items-center justify-center cursor-grab active:cursor-grabbing h-[600px] sm:h-[700px]">
-      <Globe
-        ref={globeRef}
-        width={Math.min(windowDimensions.width - 32, 1000)} // Responsive width with max
-        height={Math.min(windowDimensions.height, 700)}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-dark.jpg"
+    <div className="relative w-full overflow-hidden rounded-xl border border-surface-highlight bg-base/50 flex items-center justify-center h-[600px] sm:h-[700px]">
+      <div
+        className="relative shrink-0 overflow-hidden rounded-full cursor-grab active:cursor-grabbing"
+        style={{ width: globeSize, height: globeSize }}
+        onMouseEnter={() => {
+          if (globeRef.current) globeRef.current.controls().autoRotate = false;
+        }}
+        onMouseLeave={() => {
+          if (globeRef.current) globeRef.current.controls().autoRotate = true;
+        }}
+      >
+        <Globe
+          ref={globeRef}
+          width={globeSize}
+          height={globeSize}
+        globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
         bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
         backgroundColor="rgba(0,0,0,0)" // Transparent background
+        onGlobeReady={() => {
+          const controls = globeRef.current.controls();
+          controls.autoRotate = true;
+          controls.autoRotateSpeed = 0.5;
+          controls.enableZoom = false;
+          globeRef.current.pointOfView({ lat: 40, lng: 10, altitude: 2 });
+        }}
+        onGlobeClick={({ lat, lng }: { lat: number; lng: number }) => {
+          const altitude = isZoomed ? 2 : 1.25;
+          globeRef.current?.pointOfView({ lat, lng, altitude }, 700);
+          setIsZoomed(!isZoomed);
+        }}
         pointsData={points}
         pointLat="lat"
         pointLng="lng"
+        onPointClick={(point: any) => {
+          router.push(`/events/${point.id}`);
+        }}
         pointColor={(d: any) => d.isSoon ? "#34D399" : "#38BDF8"} // Green if soon, else blue
         pointAltitude={0.05}
         pointRadius="size"
@@ -106,16 +121,10 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
             }, 1000);
           };
           
-          el.onmouseenter = () => {
-            if (globeRef.current) globeRef.current.controls().autoRotate = false;
-          };
-          el.onmouseleave = () => {
-            if (globeRef.current) globeRef.current.controls().autoRotate = true;
-          };
-          
           return el;
         }}
-      />
+        />
+      </div>
       <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-white/10" />
       <div className="absolute bottom-4 right-4 flex flex-col gap-2 pointer-events-none">
         <div className="flex items-center gap-2 text-xs text-secondary bg-surface/80 p-2 rounded backdrop-blur-sm border border-surface-highlight">

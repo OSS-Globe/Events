@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Globe2 } from "lucide-react";
+import Image from "next/image";
 
 export default function Navigation() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-surface-highlight bg-base/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-primary font-display font-bold text-xl hover:text-accent-blue transition-colors">
-          <Globe2 className="h-6 w-6 text-accent-green" />
+          <Image src="/logo.png" alt="OSS Globe" width={32} height={32} className="rounded-full" />
           <span>OSS Events</span>
         </Link>
         
