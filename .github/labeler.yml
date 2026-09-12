@@ -1,0 +1,23 @@
+# .github/labeler.yml
+# This file configures the actions/labeler action to automatically apply labels to PRs based on the paths of the files being changed.
+
+event-data:
+  - changed-files:
+    - any-glob-to-any-file: 'data/events.json'
+
+UI/UX:
+  - changed-files:
+    - any-glob-to-any-file: 
+      - 'app/**/*'
+      - 'components/**/*'
+      - 'lib/**/*'
+
+3D-Globe:
+  - changed-files:
+    - any-glob-to-any-file: 'components/Globe.tsx'
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file: 
+      - '*.md'
+      - '.github/**/*'
