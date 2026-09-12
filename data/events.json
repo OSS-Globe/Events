@@ -15,7 +15,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/lfenergysummit-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -42,7 +42,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://xenproject.org/resources/summit-2026/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -69,7 +69,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/agntcon-mcpcon-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -97,7 +97,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/cloud-foundry-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -124,7 +124,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/opensearchcon-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -151,7 +151,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/agl-amm-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -179,7 +179,7 @@
     },
     "online": true,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://community2.cncf.io/events/details/cncf-virtual-project-events-hosted-by-cncf-presents-kcpcon-2026/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -206,7 +206,7 @@
     },
     "online": false,
     "hybrid": true,
-    "officialWebsite": null,
+    "officialWebsite": "https://lpc.events/event/20/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -233,7 +233,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/mcp-dev-summit-toronto/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -260,7 +260,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/observability-summit-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -287,7 +287,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/valkeyconf/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -314,7 +314,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/lf-member-european-forum/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -341,7 +341,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/openssf-community-day-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -368,7 +368,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/valkey-contributor-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -395,7 +395,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/embedded-linux-conference-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -422,7 +422,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-summit-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -449,7 +449,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://promcon.io/2026-munich/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -476,7 +476,7 @@
     },
     "online": true,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://community2.cncf.io/events/details/cncf-virtual-project-events-hosted-by-cncf-presents-dapr-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -503,7 +503,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/linux-kernel-maintainer-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -531,7 +531,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/linux-security-summit-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -558,7 +558,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/bazelcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -585,7 +585,7 @@
     },
     "online": true,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://community2.cncf.io/events/details/cncf-virtual-project-events-hosted-by-cncf-presents-virtual-envoycon-10-year-anniversary-edition/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -612,7 +612,7 @@
     },
     "online": true,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://community2.cncf.io/events/details/cncf-virtual-project-events-hosted-by-cncf-presents-kubevirt-summit-2026/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -640,7 +640,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://opiproject.org/event/opi-summit-on-dpu-ipus-2/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -667,7 +667,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-ai-week/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -694,7 +694,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/jupyter-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -722,7 +722,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://openinventionnetwork.com/oin-connect-2026/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -749,7 +749,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/ocudu-ecosystem-developer-summit-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -776,7 +776,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/pytorch-conference-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -803,7 +803,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/lf-legal-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -830,7 +830,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -858,7 +858,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-finance-forum-new-york/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -885,7 +885,7 @@
     },
     "online": false,
     "hybrid": true,
-    "officialWebsite": null,
+    "officialWebsite": "https://luma.com/voiceagentssf",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -912,7 +912,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/features-add-ons/maintainer-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -939,7 +939,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/agentics-day-mcp-agents/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -967,7 +967,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -994,7 +994,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/backstagecon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1021,7 +1021,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/ciliumcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1048,7 +1048,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/cloud-native-ai-inference-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1076,7 +1076,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/fluxcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1103,7 +1103,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1131,7 +1131,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/kubernetes-on-edge-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1158,7 +1158,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/observability-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1185,7 +1185,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/open-source-securitycon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1212,7 +1212,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/opentofu-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1239,7 +1239,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/platform-engineering-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1266,7 +1266,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/grpconf-india/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1293,7 +1293,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/mcp-dev-summit-nairobi/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1321,7 +1321,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/automotive-linux-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1348,7 +1348,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/embedded-linux-conference-asia/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1375,7 +1375,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-summit-japan/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1402,7 +1402,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-networking-edge-summit-japan/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1429,7 +1429,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-compliance-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1456,7 +1456,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/pytorch-day-japan/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1484,7 +1484,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/lf-member-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1511,7 +1511,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/agentics-day-mcp-agents/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1540,7 +1540,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/argocon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1568,7 +1568,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/backstagecon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1596,7 +1596,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/buildpacks-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1624,7 +1624,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/ciliumcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1652,7 +1652,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/cloud-native-ai-inference-day-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1681,7 +1681,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/fluxcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1709,7 +1709,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/keycloakcon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1737,7 +1737,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1766,7 +1766,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/kubernetes-on-edge-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1794,7 +1794,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/observability-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1822,7 +1822,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-source-securitycon/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1850,7 +1850,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/open-sovereign-ai-cloud-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1879,7 +1879,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/opentofu-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1907,7 +1907,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/co-located-events/platform-engineering-day/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1935,7 +1935,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/hpsf-conference/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1962,7 +1962,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/agntcon-mcpcon-north-america-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -1990,7 +1990,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-summit-north-america/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2017,7 +2017,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/overture-member-summit/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2045,7 +2045,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/agntcon-mcpcon-europe-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2073,7 +2073,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/open-source-summit-europe-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2100,7 +2100,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/lfenergysummit-europe-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2127,7 +2127,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/pytorch-conference-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2154,7 +2154,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2027/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2182,7 +2182,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe-2028/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
@@ -2210,7 +2210,7 @@
     },
     "online": false,
     "hybrid": false,
-    "officialWebsite": null,
+    "officialWebsite": "https://events.linuxfoundation.org/aswf-open-source-forum/",
     "registrationLink": null,
     "organizer": "Linux Foundation",
     "tags": [
