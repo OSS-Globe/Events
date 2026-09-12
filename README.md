@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OSS Events
 
-## Getting Started
+OSS Events is a community-maintained directory and discovery platform for open-source conferences, summits, hackathons, and meetups worldwide. 
 
-First, run the development server:
+Built as the first major project under the OSS Globe organization, this platform aims to solve the discovery problem in the open-source ecosystem by providing a single, actively maintained atlas of where and when the community is gathering.
 
+## The Contribution Loop
+
+This project relies on the community to keep the event data accurate and up to date. The architecture is designed to make contributing as straightforward as possible:
+
+1. A user visits the site and notices an upcoming event is missing (or has incorrect details).
+2. The user submits a Pull Request modifying `data/events.json`.
+3. A maintainer reviews and merges the PR.
+4. The Next.js application automatically rebuilds and deploys via Vercel.
+5. The global event directory is immediately updated for everyone.
+
+## Adding or Updating an Event
+
+All event data is statically stored in `data/events.json`. The website has no backend database, meaning every event is tracked via version control.
+
+To add an event:
+1. Fork this repository.
+2. Add your event to `data/events.json` following the required schema.
+3. Submit a Pull Request.
+
+For detailed instructions on the data schema and how to submit a PR, please read our [Contributing Guide](CONTRIBUTING.md).
+
+## Local Development
+
+The project is built using Next.js (App Router), Tailwind CSS, and react-globe.gl for the interactive 3D map.
+
+### Prerequisites
+- Node.js 18.17 or later
+- npm, pnpm, or yarn
+
+### Setup
+
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/OSS-Globe/events.git
+cd events
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The application will automatically reload if you change any of the source files.
 
-## Learn More
+## Architecture & Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS v4
+- **Interactive Map:** react-globe.gl (WebGL/Three.js)
+- **Data Layer:** Static JSON (`data/events.json`)
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application heavily utilizes Next.js Static Site Generation (SSG). Because the event data is stored in a local JSON file, all dynamic routes (such as individual event pages, country directories, and category tags) are pre-rendered at build time. This ensures maximum performance and allows Search Engines to properly index every event using Schema.org JSON-LD tags.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Community Programs
 
-## Deploy on Vercel
+OSS Events actively participates in open-source contribution programs, including:
+- Social Summer of Code (SSoC)
+- GirlScript Summer of Code (GSSoC)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome first-time contributors. Check the GitHub Issues tab for issues labeled `good first issue` or `help wanted`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is open source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
