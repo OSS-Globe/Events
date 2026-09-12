@@ -4,6 +4,8 @@ OSS Events is a community-maintained directory and discovery platform for open-s
 
 Built as the first major project under the OSS Globe organization, this platform aims to solve the discovery problem in the open-source ecosystem by providing a single, actively maintained atlas of where and when the community is gathering.
 
+If you find this project useful or want to support our mission, please consider giving the repository a star ⭐! It helps more people discover the project.
+
 ## The Contribution Loop
 
 This project relies on the community to keep the event data accurate and up to date. The architecture is designed to make contributing as straightforward as possible:

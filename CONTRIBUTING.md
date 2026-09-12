@@ -1,55 +1,114 @@
 # Contributing to OSS Events
 
-First off, thank you for considering contributing to OSS Events! It's people like you that make OSS Globe such a great community.
+First off, thank you for considering contributing to OSS Events! It's people like you that make this directory a useful resource for the global open-source community.
 
-## Adding or Updating an Event
+There are many ways to contribute, from adding missing events to fixing bugs or improving the website's UI. This document provides guidelines and instructions for contributing.
 
-Currently, all event data is stored in `data/events.json`. To add a new event or update an existing one:
+*(If you like what we're building, please consider giving the repository a star ⭐! It helps our community grow.)*
 
-1. Fork this repository.
-2. Edit `data/events.json` to include your changes. Please follow the existing schema and ensure dates are in ISO 8601 format (`YYYY-MM-DD`).
-3. If you are adding a new event, please provide accurate latitude and longitude for the location so it appears correctly on the globe.
-4. Submit a Pull Request with a clear description of the event you added or updated.
+## Table of Contents
+- [How to Add an Event](#how-to-add-an-event)
+- [Local Development Setup](#local-development-setup)
+- [Submitting a Pull Request](#submitting-a-pull-request)
+- [Getting Help](#getting-help)
 
-### Event Data Schema
+---
+
+## How to Add an Event
+
+The core of this project is the event data. We do not use a backend database; instead, all events are stored in a single JSON file.
+
+### 1. Locate the Data File
+All event data lives in `data/events.json`.
+
+### 2. Event Schema
+To add a new event, append a new JSON object to the array in `data/events.json`. Please ensure you follow this exact structure:
 
 ```json
 {
-  "id": "unique-event-slug-year",
+  "id": "unique-event-slug-2027",
   "name": "Event Name",
-  "description": "A short description of the event.",
+  "description": "A short, accurate description of the event.",
   "placeholderDescription": false,
-  "type": "conference", // conference, summit, forum, community-day, member-meeting, themed-week
-  "startDate": "YYYY-MM-DD", // null if TBA
+  "type": "conference", 
+  "startDate": "YYYY-MM-DD",
   "endDate": "YYYY-MM-DD",
   "location": {
     "city": "City Name",
-    "country": "Country Name", // null if virtual
-    "lat": 0.0000, // null if virtual
-    "lng": 0.0000  // null if virtual
+    "country": "Country Name",
+    "lat": 0.0000,
+    "lng": 0.0000
   },
   "online": false,
-  "hybrid": false,
-  "officialWebsite": "https://...",
-  "registrationLink": "https://...",
+  "hybrid": true,
+  "officialWebsite": "https://example.com",
+  "registrationLink": "https://example.com/register",
   "organizer": "Organizer Name",
-  "tags": ["tag1", "tag2"],
+  "tags": ["open-source", "javascript"],
   "cfp": {
-    "status": "open", // closed, open, none, tba, unknown
-    "closesOn": "YYYY-MM-DD" // optional
+    "status": "closed"
   },
   "lastUpdated": "YYYY-MM-DD"
 }
 ```
 
-## Contributing to the Website
+*Note: For fully online events, you can set `country`, `lat`, and `lng` to `null`.*
 
-If you'd like to help build the website itself:
+---
 
-1. Fork the repository.
-2. Run `npm install` to install dependencies.
-3. Run `npm run dev` to start the development server.
-4. Make your changes and test them locally.
-5. Submit a Pull Request.
+## Local Development Setup
 
-Please check the issues tab for "good first issue" or "help wanted" tags!
+If you want to preview your added events on the 3D globe, or if you want to contribute code to the Next.js website, you will need to run the project locally.
+
+### Prerequisites
+- Node.js (v18.17 or higher)
+- npm, pnpm, or yarn
+- Git
+
+### Steps
+1. **Fork the repository** on GitHub.
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/events.git
+   cd events
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+5. Open `http://localhost:3000` in your browser.
+
+---
+
+## Submitting a Pull Request
+
+Once you have added an event or made code changes, you are ready to submit a Pull Request (PR).
+
+1. **Create a new branch** for your changes:
+   ```bash
+   git checkout -b add-my-awesome-event
+   ```
+2. **Commit your changes**:
+   ```bash
+   git commit -m "Add [Event Name] to directory"
+   ```
+3. **Push to your fork**:
+   ```bash
+   git push origin add-my-awesome-event
+   ```
+4. **Open a Pull Request** against the `main` branch of the `OSS-Globe/events` repository.
+5. Provide a clear title and description for your PR. If your PR resolves an open issue, link to it (e.g., `Fixes #12`).
+
+A maintainer will review your PR as soon as possible. They may ask for minor changes or clarifications before merging.
+
+---
+
+## Getting Help
+
+If you are stuck or need help with your contribution, please feel free to open an Issue asking for guidance, or ask a question directly in your Pull Request. We are happy to help beginners!
+
+Thank you for contributing!
