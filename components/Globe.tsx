@@ -15,6 +15,7 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
   const [windowDimensions, setWindowDimensions] = useState({ width: 800, height: 600 });
   const [mounted, setMounted] = useState(false);
   const [isZoomed, setIsZoomed] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -30,8 +31,23 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const updateMotionPreference = () => setReduceMotion(mediaQuery.matches);
+
+    updateMotionPreference();
+    mediaQuery.addEventListener("change", updateMotionPreference);
+    return () => mediaQuery.removeEventListener("change", updateMotionPreference);
+  }, []);
+
+  useEffect(() => {
+    if (globeRef.current) {
+      globeRef.current.controls().autoRotate = !reduceMotion;
+    }
+  }, [reduceMotion]);
+
   if (!mounted) {
-    return <div className="h-[600px] w-full flex items-center justify-center bg-base"><div className="w-16 h-16 border-4 border-accent-blue/30 border-t-accent-blue rounded-full animate-spin"></div></div>;
+    return <div className="atlas-grid flex h-[430px] w-full items-center justify-center border border-surface-highlight bg-surface/40 sm:h-[560px] lg:h-[640px]"><div className="h-10 w-10 rounded-full border-2 border-accent-blue/25 border-t-accent-blue animate-spin" aria-label="Loading event globe" /></div>;
   }
 
   // Pre-process points
@@ -53,12 +69,15 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
       };
     });
 
-  const globeSize = Math.min(windowDimensions.width - 32, 700);
+  const globeSize = Math.min(windowDimensions.width < 640 ? windowDimensions.width - 40 : windowDimensions.width - 96, Math.min(windowDimensions.height, 660));
 
   return (
-    <div className="relative w-full overflow-hidden rounded-xl border border-surface-highlight bg-base/50 flex items-center justify-center h-[600px] sm:h-[700px]">
+    <div className="atlas-grid relative flex h-[430px] w-full items-center justify-center overflow-hidden border border-surface-highlight bg-surface/35 sm:h-[560px] lg:h-[640px]" aria-label="Interactive globe showing open-source events worldwide">
+      <div className="pointer-events-none absolute left-4 top-4 z-10 font-mono text-[0.62rem] font-bold uppercase tracking-[0.11em] text-tertiary">
+        Event signals / global coordinates
+      </div>
       <div
-        className="relative shrink-0 overflow-hidden rounded-full cursor-grab active:cursor-grabbing"
+        className="relative shrink-0 overflow-hidden rounded-full cursor-grab [filter:drop-shadow(0_24px_35px_rgba(0,0,0,0.52))] active:cursor-grabbing"
         style={{ width: globeSize, height: globeSize }}
         onMouseEnter={() => {
           if (globeRef.current) globeRef.current.controls().autoRotate = false;
@@ -76,7 +95,7 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
         backgroundColor="rgba(0,0,0,0)" // Transparent background
         onGlobeReady={() => {
           const controls = globeRef.current.controls();
-          controls.autoRotate = true;
+          controls.autoRotate = !reduceMotion;
           controls.autoRotateSpeed = 0.5;
           controls.enableZoom = false;
           globeRef.current.pointOfView({ lat: 40, lng: 10, altitude: 2 });
@@ -92,20 +111,20 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
         onPointClick={(point: any) => {
           router.push(`/events/${point.id}`);
         }}
-        pointColor={(d: any) => d.isSoon ? "#34D399" : "#38BDF8"} // Green if soon, else blue
+        pointColor={(d: any) => d.isSoon ? "#9BCB5A" : "#63D8F5"} // Green if soon, else blue
         pointAltitude={0.05}
         pointRadius="size"
         pointsMerge={false}
         pointResolution={32}
         ringsData={points.filter((d: any) => d.isSoon)}
-        ringColor={() => "#34D399"}
+        ringColor={() => "#9BCB5A"}
         ringMaxRadius={2}
         ringPropagationSpeed={1}
         ringRepeatPeriod={1000}
         htmlElementsData={points}
         htmlElement={(d: any) => {
           const el = document.createElement('div');
-          el.innerHTML = `<div class="hidden group-hover:block absolute bg-surface border border-surface-highlight text-primary p-2 rounded shadow-lg text-xs whitespace-nowrap z-10 bottom-4 left-1/2 -translate-x-1/2 pointer-events-none transition-opacity">
+          el.innerHTML = `<div class="hidden group-hover:block absolute bg-surface border border-surface-highlight text-primary p-2 text-xs whitespace-nowrap z-10 bottom-4 left-1/2 -translate-x-1/2 pointer-events-none transition-opacity">
             <strong class="text-accent-blue">${d.name}</strong><br/>
             ${d.city}
           </div>`;
@@ -125,14 +144,14 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
         }}
         />
       </div>
-      <div className="absolute inset-0 pointer-events-none rounded-xl ring-1 ring-inset ring-white/10" />
-      <div className="absolute bottom-4 right-4 flex flex-col gap-2 pointer-events-none">
-        <div className="flex items-center gap-2 text-xs text-secondary bg-surface/80 p-2 rounded backdrop-blur-sm border border-surface-highlight">
-          <div className="w-2 h-2 rounded-full bg-accent-green animate-pulse"></div>
+      <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/5" />
+      <div className="pointer-events-none absolute bottom-3 left-3 right-3 flex flex-wrap gap-x-4 gap-y-2 border-t border-surface-highlight/70 pt-3 sm:bottom-4 sm:left-4 sm:right-auto sm:border-0 sm:pt-0">
+        <div className="flex items-center gap-2 font-mono text-[0.62rem] font-semibold uppercase tracking-[0.08em] text-secondary">
+          <div className="h-2 w-2 rounded-full bg-accent-green animate-pulse"></div>
           <span>Happening soon (30 days)</span>
         </div>
-        <div className="flex items-center gap-2 text-xs text-secondary bg-surface/80 p-2 rounded backdrop-blur-sm border border-surface-highlight">
-          <div className="w-2 h-2 rounded-full bg-accent-blue"></div>
+        <div className="flex items-center gap-2 font-mono text-[0.62rem] font-semibold uppercase tracking-[0.08em] text-secondary">
+          <div className="h-2 w-2 rounded-full bg-accent-blue"></div>
           <span>Upcoming event</span>
         </div>
       </div>

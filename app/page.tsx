@@ -1,79 +1,85 @@
 import Link from "next/link";
-import { ArrowRight, MapPin, CalendarDays, Users } from "lucide-react";
+import { ArrowRight, CalendarDays, MapPin, Search, Users } from "lucide-react";
 import EventsGlobe from "@/components/Globe";
-import { getAllEvents, getUpcomingEvents, getAllCountries } from "@/lib/events";
+import { getAllCountries, getAllEvents, getUpcomingEvents } from "@/lib/events";
 
 export default function Home() {
   const allEvents = getAllEvents();
   const upcomingEvents = getUpcomingEvents();
   const countries = getAllCountries();
-  
-  const upcomingThisMonth = upcomingEvents.filter(e => {
-    const eventDate = new Date(e.startDate!);
+
+  const upcomingThisMonth = upcomingEvents.filter((event) => {
+    const eventDate = new Date(event.startDate!);
     const thirtyDaysFromNow = new Date();
     thirtyDaysFromNow.setDate(thirtyDaysFromNow.getDate() + 30);
     return eventDate <= thirtyDaysFromNow;
   });
 
   return (
-    <div className="flex flex-col w-full max-w-[1400px] mx-auto">
-      {/* Hero Section */}
-      <section className="relative px-4 pt-12 pb-24 md:pt-20 md:pb-32 flex flex-col items-center text-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight text-primary max-w-4xl mb-6">
-          Discover the <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-blue to-accent-green">open-source</span> world.
-        </h1>
-        <p className="text-lg md:text-xl text-secondary max-w-2xl mb-10">
-          A community-maintained atlas of open-source conferences, meetups, hackathons, and summits happening around the globe.
-        </p>
-        
-        <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
-          <Link 
-            href="/events" 
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary text-base font-medium transition-transform hover:scale-105"
-          >
-            Browse All Events
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-          <Link 
-            href="/contribute" 
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-surface border border-surface-highlight text-primary font-medium transition-colors hover:bg-surface-highlight"
-          >
-            Add an Event
-          </Link>
+    <div className="w-full">
+      <section className="site-container grid gap-12 py-14 sm:py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-end lg:py-24">
+        <div>
+          <p className="atlas-kicker">Community-run event atlas</p>
+          <h1 className="mt-5 max-w-3xl text-5xl font-bold leading-[0.98] tracking-[-0.055em] text-primary sm:text-6xl lg:text-7xl">
+            Discover open-source events worldwide.
+          </h1>
+          <p className="mt-6 max-w-2xl text-base leading-7 text-secondary sm:text-lg sm:leading-8">
+            A practical map of the conferences, summits, meetups, and gatherings where open-source communities come together.
+          </p>
+
+          <div className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <Link href="/events" className="button-primary">
+              Browse the directory <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link href="/contribute" className="inline-flex items-center gap-1.5 text-sm font-bold text-secondary transition-colors hover:text-accent-green">
+              Add an event <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
         </div>
 
-        {/* Stats Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full max-w-4xl mx-auto">
-          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-surface border border-surface-highlight">
-            <CalendarDays className="h-6 w-6 text-accent-blue mb-2" />
-            <span className="text-3xl font-display font-bold text-primary">{allEvents.length}</span>
-            <span className="text-sm font-medium text-secondary">Total Events</span>
-          </div>
-          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-surface border border-surface-highlight">
-            <MapPin className="h-6 w-6 text-accent-green mb-2" />
-            <span className="text-3xl font-display font-bold text-primary">{countries.length}</span>
-            <span className="text-sm font-medium text-secondary">Countries</span>
-          </div>
-          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-surface border border-surface-highlight relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-accent-blue/10 to-accent-green/10" />
-            <div className="relative z-10 flex flex-col items-center">
-              <Users className="h-6 w-6 text-accent-blue mb-2" />
-              <span className="text-3xl font-display font-bold text-primary">{upcomingThisMonth.length}</span>
-              <span className="text-sm font-medium text-secondary">Soon (30 days)</span>
+        <div className="border-l border-surface-highlight pl-5 sm:pl-7 lg:pb-2">
+          <p className="font-mono text-[0.68rem] font-bold uppercase tracking-[0.12em] text-tertiary">Atlas index</p>
+          <dl className="mt-5 grid grid-cols-2 gap-x-5 gap-y-6 sm:gap-x-8">
+            <div>
+              <dt className="flex items-center gap-2 text-xs font-semibold text-secondary"><CalendarDays className="h-3.5 w-3.5 text-accent-blue" aria-hidden="true" />Events listed</dt>
+              <dd className="mt-1 font-display text-3xl font-bold tracking-[-0.04em] text-primary">{allEvents.length}</dd>
             </div>
-          </div>
-          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-surface border border-surface-highlight">
-            <span className="text-3xl font-display font-bold text-primary">{upcomingEvents.length}</span>
-            <span className="text-sm font-medium text-secondary">Upcoming</span>
-          </div>
+            <div>
+              <dt className="flex items-center gap-2 text-xs font-semibold text-secondary"><MapPin className="h-3.5 w-3.5 text-accent-green" aria-hidden="true" />Countries</dt>
+              <dd className="mt-1 font-display text-3xl font-bold tracking-[-0.04em] text-primary">{countries.length}</dd>
+            </div>
+            <div>
+              <dt className="flex items-center gap-2 text-xs font-semibold text-secondary"><Users className="h-3.5 w-3.5 text-accent-blue" aria-hidden="true" />Upcoming</dt>
+              <dd className="mt-1 font-display text-3xl font-bold tracking-[-0.04em] text-primary">{upcomingEvents.length}</dd>
+            </div>
+            <div>
+              <dt className="flex items-center gap-2 text-xs font-semibold text-secondary"><span className="h-2 w-2 rounded-full bg-accent-green" aria-hidden="true" />Next 30 days</dt>
+              <dd className="mt-1 font-display text-3xl font-bold tracking-[-0.04em] text-primary">{upcomingThisMonth.length}</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
-      {/* Globe Section */}
-      <section className="px-4 pb-24 w-full">
-        <div className="w-full mx-auto shadow-2xl shadow-accent-blue/5 rounded-xl">
-          <EventsGlobe events={allEvents} />
+      <section className="border-y border-surface-highlight/75">
+        <div className="site-container py-5 sm:py-6">
+          <Link href="/events" className="group flex items-center gap-3 text-left text-sm text-secondary transition-colors hover:text-primary">
+            <Search className="h-4 w-4 shrink-0 text-accent-blue" aria-hidden="true" />
+            <span className="font-medium">Search events by name or description</span>
+            <span className="ml-auto font-mono text-xs font-bold uppercase tracking-[0.1em] text-tertiary transition-colors group-hover:text-accent-green">Open directory</span>
+          </Link>
         </div>
+      </section>
+
+      <section className="site-container py-12 sm:py-16 lg:py-20">
+        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="atlas-kicker">Live global view</p>
+            <h2 className="mt-3 text-3xl font-bold tracking-[-0.04em] text-primary sm:text-4xl">Follow the signals.</h2>
+          </div>
+          <p className="max-w-sm text-sm leading-6 text-secondary">Choose a marker to open an event record. Green signals are happening within 30 days.</p>
+        </div>
+
+        <EventsGlobe events={allEvents} />
       </section>
     </div>
   );
