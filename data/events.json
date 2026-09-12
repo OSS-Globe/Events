@@ -1,0 +1,2224 @@
+[
+  {
+    "id": "lf-energy-summit-europe-2026",
+    "name": "LF Energy Summit Europe",
+    "description": "An in-person Linux Foundation open-source community event in Berlin.",
+    "placeholderDescription": true,
+    "type": "summit",
+    "startDate": "2026-09-15",
+    "endDate": "2026-09-16",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "energy"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "xen-summit-2026",
+    "name": "Xen Summit",
+    "description": "A summit for the Xen Project, the open source hypervisor.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-09-15",
+    "endDate": "2026-09-17",
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "lat": 48.1351,
+      "lng": 11.582
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "virtualization"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agntcon-mcpcon-europe-2026",
+    "name": "AGNTCon + MCPCon Europe",
+    "description": "A conference on open source AI agent frameworks and tooling.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-18",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "cloud-foundry-summit-2026",
+    "name": "Cloud Foundry Summit",
+    "description": "A community event for the Cloud Foundry open source platform-as-a-service project.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-22",
+    "location": {
+      "city": "Heidelberg",
+      "country": "Germany",
+      "lat": 49.3988,
+      "lng": 8.6724
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "opensearchcon-north-america-2026",
+    "name": "OpenSearchCon North America",
+    "description": "A community event for OpenSearch, the open source search and analytics suite.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-09-22",
+    "endDate": "2026-09-24",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "search"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "automotive-grade-linux-all-member-meeting-europe-2026",
+    "name": "Automotive Grade Linux All Member Meeting Europe",
+    "description": "A meeting of Automotive Grade Linux members on the shared in-vehicle Linux platform.",
+    "placeholderDescription": false,
+    "type": "member-meeting",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-01",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "automotive",
+      "member-event"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kcpcon-2026",
+    "name": "kcpCON",
+    "description": "A community event for kcp, the open source project for building Kubernetes-like control planes.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-01",
+    "location": {
+      "city": "Virtual",
+      "country": null,
+      "lat": null,
+      "lng": null
+    },
+    "online": true,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "linux-plumbers-conference-2026",
+    "name": "Linux Plumbers Conference",
+    "description": "A technical conference where Linux kernel and core infrastructure developers coordinate deep 'plumbing' work.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-07",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": true,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "linux-kernel"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "mcp-dev-summit-toronto-2026",
+    "name": "MCP Dev Summit Toronto",
+    "description": "A summit for developers building with MCP (Model Context Protocol).",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-06",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "lat": 43.6532,
+      "lng": -79.3832
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "observability-summit-europe-2026",
+    "name": "Observability Summit Europe",
+    "description": "A summit on open source observability tooling and practices.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-05",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "observability"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "valkeyconf-2026",
+    "name": "ValkeyConf",
+    "description": "A community event for Valkey, the open source in-memory data store.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-05",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "data-storage"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "linux-foundation-member-european-forum-2026",
+    "name": "Linux Foundation Member European Forum",
+    "description": "A forum for Linux Foundation member organizations in Europe.",
+    "placeholderDescription": false,
+    "type": "forum",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-06",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "member-event"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "openssf-community-day-europe-2026",
+    "name": "OpenSSF Community Day Europe",
+    "description": "A community day hosted by the Open Source Security Foundation on securing the open source software supply chain.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-06",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "valkey-contributor-summit-2026",
+    "name": "Valkey Contributor Summit",
+    "description": "A community event for Valkey, the open source in-memory data store.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-06",
+    "endDate": "2026-10-06",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "data-storage"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "embedded-linux-conference-europe-2026",
+    "name": "Embedded Linux Conference Europe",
+    "description": "A technical conference for developers building embedded systems on Linux.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-09",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "embedded"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-summit-europe-2026",
+    "name": "Open Source Summit Europe",
+    "description": "The Linux Foundation's flagship gathering for open source developers, maintainers, and technologists.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-09",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "promcon-europe-2026",
+    "name": "PromCon Europe",
+    "description": "A community conference for Prometheus, the open source monitoring and alerting toolkit.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-08",
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "lat": 48.1351,
+      "lng": 11.582
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "observability"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "dapr-day-virtual-2026",
+    "name": "Dapr Day Virtual",
+    "description": "A community day for Dapr, the open source runtime for building distributed applications.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
+    "location": {
+      "city": "Virtual",
+      "country": null,
+      "lat": null,
+      "lng": null
+    },
+    "online": true,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "linux-kernel-maintainer-summit-2026",
+    "name": "Linux Kernel Maintainer Summit",
+    "description": "An invite-only gathering of Linux kernel maintainers held alongside Linux Plumbers Conference.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "linux-kernel"
+    ],
+    "cfp": {
+      "status": "none"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "linux-security-summit-europe-2026",
+    "name": "Linux Security Summit Europe",
+    "description": "A technical conference focused on Linux kernel and systems security.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "lat": 50.0755,
+      "lng": 14.4378
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "security"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "bazelcon-2026",
+    "name": "BazelCon",
+    "description": "A community conference for Bazel, the open source build and test tool.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-15",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "virtual-envoycon-10-year-anniversary-edition-2026",
+    "name": "Virtual EnvoyCon 10 Year Anniversary Edition",
+    "description": "A community event for Envoy, the open source edge and service proxy.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "location": {
+      "city": "Virtual",
+      "country": null,
+      "lat": null,
+      "lng": null
+    },
+    "online": true,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubevirt-summit-virtual-2026",
+    "name": "KubeVirt Summit Virtual",
+    "description": "A community event for KubeVirt, the project that runs virtual machines on Kubernetes.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "location": {
+      "city": "Virtual",
+      "country": null,
+      "lat": null,
+      "lng": null
+    },
+    "online": true,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes",
+      "virtualization"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "opi-summit-on-dpu-ipus-2026",
+    "name": "OPI Summit on DPU/IPUs",
+    "description": "A summit on Open Programmable Infrastructure (OPI) for DPUs and IPUs.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-ai-week-2026",
+    "name": "Open Source AI Week",
+    "description": "A week of talks and gatherings across the Bay Area covering open source AI tooling and research.",
+    "placeholderDescription": false,
+    "type": "themed-week",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-25",
+    "location": {
+      "city": "Bay Area",
+      "country": "United States",
+      "lat": 37.5485,
+      "lng": -122.1477
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "none"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "jupyter-day-2026",
+    "name": "Jupyter Day",
+    "description": "A community day for the Jupyter open source interactive computing project.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "data-science"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Sep 13, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "oin-connect-2026",
+    "name": "OIN Connect 2026",
+    "description": "A gathering hosted by the Open Invention Network on patent non-aggression and open source.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "compliance-legal"
+    ],
+    "cfp": {
+      "status": "none"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "ocudu-ecosystem-developer-summit-2026",
+    "name": "OCUDU Ecosystem Developer Summit",
+    "description": "A summit for the OCUDU ecosystem of developers.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-22",
+    "location": {
+      "city": "Alexandria",
+      "country": "United States",
+      "lat": 38.8048,
+      "lng": -77.0469
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "pytorch-conference-north-america-2026",
+    "name": "PyTorch Conference North America",
+    "description": "A gathering for the PyTorch open source machine learning framework community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-21",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "the-linux-foundation-legal-summit-2026",
+    "name": "The Linux Foundation Legal Summit",
+    "description": "A summit for legal professionals working on open source licensing and IP issues.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-21",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "compliance-legal"
+    ],
+    "cfp": {
+      "status": "none"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agntcon-mcpcon-north-america-2026",
+    "name": "AGNTCon + MCPCon North America",
+    "description": "A conference on open source AI agent frameworks and tooling.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-23",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-in-finance-forum-new-york-2026",
+    "name": "Open Source in Finance Forum New York",
+    "description": "A forum on open source adoption in the financial services industry.",
+    "placeholderDescription": false,
+    "type": "forum",
+    "startDate": "2026-11-04",
+    "endDate": "2026-11-05",
+    "location": {
+      "city": "New York",
+      "country": "United States",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "finance"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "voice-agents-forum-2026",
+    "name": "Voice Agents Forum",
+    "description": "A forum on open source tooling for building voice-based AI agents.",
+    "placeholderDescription": false,
+    "type": "forum",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-05",
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "online": false,
+    "hybrid": true,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "maintainer-summit-2026",
+    "name": "Maintainer Summit",
+    "description": "A gathering for open source project maintainers to discuss shared challenges.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-08",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agentics-day-mcp-agents-north-america-2026",
+    "name": "Agentics Day: MCP + Agents North America",
+    "description": "A day of talks on MCP (Model Context Protocol) and open source AI agent tooling.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "argocon-north-america-2026",
+    "name": "ArgoCon North America",
+    "description": "A community event for Argo, the Kubernetes-native GitOps and workflow project family.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "backstagecon-north-america-2026",
+    "name": "BackstageCon North America",
+    "description": "A community event for Backstage, the open platform for building developer portals.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "ciliumcon-north-america-2026",
+    "name": "CiliumCon North America",
+    "description": "A community event for Cilium, the eBPF-based networking, observability, and security project.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "cloud-native-ai-inference-day-north-america-2026",
+    "name": "Cloud Native AI & Inference Day North America",
+    "description": "A day of talks on running AI and inference workloads on cloud native infrastructure.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "cloud-native",
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "fluxcon-north-america-2026",
+    "name": "FluxCon North America",
+    "description": "A community event for Flux, the GitOps toolkit for Kubernetes.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubecon-cloudnativecon-north-america-2026",
+    "name": "KubeCon + CloudNativeCon North America",
+    "description": "The Cloud Native Computing Foundation's flagship conference for the Kubernetes and cloud native community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-12",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes",
+      "cloud-native"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubernetes-on-edge-day-north-america-2026",
+    "name": "Kubernetes on Edge Day North America",
+    "description": "A day of talks on running Kubernetes at the network edge.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "observability-day-north-america-2026",
+    "name": "Observability Day North America",
+    "description": "A day of talks on open source observability tooling and practices.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "observability"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-securitycon-north-america-2026",
+    "name": "Open Source SecurityCon North America",
+    "description": "A conference on securing open source software supply chains.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "security"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "opentofu-day-north-america-2026",
+    "name": "OpenTofu Day North America",
+    "description": "A community day for OpenTofu, the open source, Terraform-compatible infrastructure-as-code tool.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "platform-engineering-day-north-america-2026",
+    "name": "Platform Engineering Day North America",
+    "description": "A day of talks on platform engineering practices in cloud native organizations.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "United States",
+      "lat": 40.7608,
+      "lng": -111.891
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "platform-engineering"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "grpconf-india-2026",
+    "name": "gRPConf India",
+    "description": "A conference on gRPC, the open source high-performance RPC framework.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-11-18",
+    "endDate": "2026-11-18",
+    "location": {
+      "city": "Bengaluru",
+      "country": "India",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "mcp-dev-summit-nairobi-2026",
+    "name": "MCP Dev Summit Nairobi",
+    "description": "A summit for developers building with MCP (Model Context Protocol).",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-20",
+    "location": {
+      "city": "Nairobi",
+      "country": "Kenya",
+      "lat": -1.2921,
+      "lng": 36.8219
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "automotive-linux-summit-2026",
+    "name": "Automotive Linux Summit",
+    "description": "A summit on Linux and open source software in the automotive industry.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-09",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "automotive"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "embedded-linux-conference-asia-2026",
+    "name": "Embedded Linux Conference Asia",
+    "description": "A technical conference for developers building embedded systems on Linux.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-09",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "embedded"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-summit-japan-2026",
+    "name": "Open Source Summit Japan",
+    "description": "The Linux Foundation's flagship gathering for open source developers, maintainers, and technologists.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-12-07",
+    "endDate": "2026-12-09",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "one-summit-japan-2026",
+    "name": "ONE Summit Japan",
+    "description": "A summit on open networking and edge automation projects hosted by the Linux Foundation.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-11",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking-edge"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-compliance-summit-2026",
+    "name": "Open Compliance Summit",
+    "description": "A summit on open source license compliance and software supply chain practices.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-11",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "compliance-legal"
+    ],
+    "cfp": {
+      "status": "closed"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "pytorch-day-japan-2026",
+    "name": "PyTorch Day Japan",
+    "description": "A gathering for the PyTorch open source machine learning framework community.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-10",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Sep 27, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "the-linux-foundation-member-summit-2027",
+    "name": "The Linux Foundation Member Summit",
+    "description": "A gathering for Linux Foundation member organizations.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2027-02-22",
+    "endDate": "2027-02-23",
+    "location": {
+      "city": "Half Moon Bay",
+      "country": "United States",
+      "lat": 37.4636,
+      "lng": -122.4286
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "member-event"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agentics-day-mcp-agents-europe-2027",
+    "name": "Agentics Day: MCP + Agents Europe",
+    "description": "A day of talks on MCP (Model Context Protocol) and open source AI agent tooling.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "argocon-europe-2027",
+    "name": "ArgoCon Europe",
+    "description": "A community event for Argo, the Kubernetes-native GitOps and workflow project family.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "backstagecon-europe-2027",
+    "name": "BackstageCon Europe",
+    "description": "A community event for Backstage, the open platform for building developer portals.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "buildpacks-summit-europe-2027",
+    "name": "Buildpacks Summit Europe",
+    "description": "A community event for Cloud Native Buildpacks, the OCI image-building project.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "ciliumcon-europe-2027",
+    "name": "CiliumCon Europe",
+    "description": "A community event for Cilium, the eBPF-based networking, observability, and security project.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "networking"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "cloud-native-ai-inference-day-europe-2027",
+    "name": "Cloud Native AI + Inference Day Europe",
+    "description": "A day of talks on running AI and inference workloads on cloud native infrastructure.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "cloud-native",
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "fluxcon-europe-2027",
+    "name": "FluxCon Europe",
+    "description": "A community event for Flux, the GitOps toolkit for Kubernetes.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "keycloakcon-europe-2027",
+    "name": "KeyCloakCon Europe",
+    "description": "A community event for Keycloak, the open source identity and access management project.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubecon-cloudnativecon-europe-2027",
+    "name": "KubeCon + CloudNativeCon Europe",
+    "description": "The Cloud Native Computing Foundation's flagship conference for the Kubernetes and cloud native community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-18",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes",
+      "cloud-native"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 11, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubernetes-on-edge-day-europe-2027",
+    "name": "Kubernetes on Edge Day Europe",
+    "description": "A day of talks on running Kubernetes at the network edge.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "observability-day-europe-2027",
+    "name": "Observability Day Europe",
+    "description": "A day of talks on open source observability tooling and practices.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "observability"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-securitycon-europe-2027",
+    "name": "Open Source SecurityCon Europe",
+    "description": "A conference on securing open source software supply chains.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "security"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-sovereign-ai-cloud-day-europe-2027",
+    "name": "Open Sovereign AI + Cloud Day Europe",
+    "description": "An in-person Linux Foundation open-source community event in Barcelona.",
+    "placeholderDescription": true,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "sovereign-ai"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "opentofu-day-europe-2027",
+    "name": "OpenTofu Day Europe",
+    "description": "A community day for OpenTofu, the open source, Terraform-compatible infrastructure-as-code tool.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "devtools-gitops"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "platform-engineering-day-europe-2027",
+    "name": "Platform Engineering Day Europe",
+    "description": "A day of talks on platform engineering practices in cloud native organizations.",
+    "placeholderDescription": false,
+    "type": "community-day",
+    "startDate": "2027-03-15",
+    "endDate": "2027-03-15",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "lat": 41.3874,
+      "lng": 2.1686
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "platform-engineering"
+    ],
+    "cfp": {
+      "status": "open",
+      "closesOn": "Oct 18, 2026"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "hpsf-conference-2027",
+    "name": "HPSF Conference",
+    "description": "A conference for the High Performance Software Foundation community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-04-12",
+    "endDate": "2027-04-16",
+    "location": {
+      "city": "Montreal",
+      "country": "Canada",
+      "lat": 45.5019,
+      "lng": -73.5674
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agntcon-mcpcon-north-america-2027",
+    "name": "AGNTCon + MCPCon North America 2027",
+    "description": "A conference on open source AI agent frameworks and tooling.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-04-28",
+    "endDate": "2027-04-29",
+    "location": {
+      "city": "San Francisco",
+      "country": "United States",
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-summit-north-america-2027",
+    "name": "Open Source Summit North America",
+    "description": "The Linux Foundation's flagship gathering for open source developers, maintainers, and technologists.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2027-05-17",
+    "endDate": "2027-05-19",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "lat": 49.2827,
+      "lng": -123.1207
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "overture-member-summit-2027",
+    "name": "Overture Member Summit",
+    "description": "A gathering for Linux Foundation member organizations.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2027-05-18",
+    "endDate": "2027-05-20",
+    "location": {
+      "city": "San Juan",
+      "country": "Puerto Rico",
+      "lat": 18.4655,
+      "lng": -66.1057
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "member-event",
+      "maps-geo"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "agntcon-mcpcon-europe-2027",
+    "name": "AGNTCon + MCPCon Europe 2027",
+    "description": "A conference on open source AI agent frameworks and tooling.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-09-15",
+    "endDate": "2027-09-16",
+    "location": {
+      "city": "London",
+      "country": "England",
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml",
+      "agents-mcp"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-summit-europe-2027",
+    "name": "Open Source Summit Europe 2027",
+    "description": "The Linux Foundation's flagship gathering for open source developers, maintainers, and technologists.",
+    "placeholderDescription": false,
+    "type": "summit",
+    "startDate": "2027-09-20",
+    "endDate": "2027-09-22",
+    "location": {
+      "city": "Glasgow",
+      "country": "Scotland",
+      "lat": 55.8642,
+      "lng": -4.2518
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "lf-energy-summit-europe-2027",
+    "name": "LF Energy Summit Europe 2027",
+    "description": "An in-person Linux Foundation open-source community event in Amsterdam.",
+    "placeholderDescription": true,
+    "type": "summit",
+    "startDate": "2027-09-29",
+    "endDate": "2027-09-30",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lng": 4.9041
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "energy"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "pytorch-conference-2027",
+    "name": "PyTorch Conference 2027",
+    "description": "A gathering for the PyTorch open source machine learning framework community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-10-06",
+    "endDate": "2027-10-07",
+    "location": {
+      "city": "San Jose",
+      "country": "United States",
+      "lat": 37.3382,
+      "lng": -121.8863
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "ai-ml"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubecon-cloudnativecon-north-america-2027",
+    "name": "KubeCon + CloudNativeCon North America 2027",
+    "description": "The Cloud Native Computing Foundation's flagship conference for the Kubernetes and cloud native community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2027-11-08",
+    "endDate": "2027-11-11",
+    "location": {
+      "city": "New Orleans",
+      "country": "United States",
+      "lat": 29.9511,
+      "lng": -90.0715
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes",
+      "cloud-native"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "kubecon-cloudnativecon-europe-2028",
+    "name": "KubeCon + CloudNativeCon Europe 2028",
+    "description": "The Cloud Native Computing Foundation's flagship conference for the Kubernetes and cloud native community.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2028-04-24",
+    "endDate": "2028-04-27",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lng": 13.405
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "kubernetes",
+      "cloud-native"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "open-source-forum-tba",
+    "name": "Open Source Forum",
+    "description": "A forum on open source strategy and community building.",
+    "placeholderDescription": false,
+    "type": "forum",
+    "startDate": null,
+    "endDate": null,
+    "location": {
+      "city": "Los Angeles",
+      "country": "United States",
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": null,
+    "registrationLink": null,
+    "organizer": "Linux Foundation",
+    "tags": [
+      "open-source"
+    ],
+    "cfp": {
+      "status": "tba"
+    },
+    "lastUpdated": "2026-09-12"
+  }
+]
