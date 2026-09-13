@@ -103,8 +103,14 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
           bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
           backgroundColor="rgba(0,0,0,0)" // Transparent background
           onGlobeReady={() => {
-            setTimeout(() => {
-              if (!globeRef.current || !globeRef.current.controls) return;
+            const initGlobe = (retries = 0) => {
+              if (!globeRef.current || !globeRef.current.controls) {
+                // Retry up to 20 times (2 seconds)
+                if (retries < 20) {
+                  setTimeout(() => initGlobe(retries + 1), 100);
+                }
+                return;
+              }
               const controls = globeRef.current.controls();
               if (controls) {
                 controls.autoRotate = !reduceMotion;
@@ -112,7 +118,9 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
                 controls.enableZoom = false;
               }
               globeRef.current.pointOfView({ lat: 40, lng: 10, altitude: 2 });
-            }, 50);
+            };
+            
+            initGlobe();
           }}
           onGlobeClick={({ lat, lng }: { lat: number; lng: number }) => {
             const altitude = isZoomed ? 2 : 1.25;
