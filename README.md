@@ -65,14 +65,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The application heavily utilizes Next.js Static Site Generation (SSG). Because the event data is stored in a local JSON file, all dynamic routes (such as individual event pages, country directories, and category tags) are pre-rendered at build time. This ensures maximum performance and allows Search Engines to properly index every event using Schema.org JSON-LD tags.
 
-## Community Programs
-
-OSS Events actively participates in open-source contribution programs, including:
-- Social Summer of Code (SSoC)
-- GirlScript Summer of Code (GSSoC)
-
-We welcome first-time contributors. Check the GitHub Issues tab for issues labeled `good first issue` or `help wanted`.
-
 ## License
 
 This project is open source and available under the MIT License. See the [LICENSE](LICENSE) file for more information.
