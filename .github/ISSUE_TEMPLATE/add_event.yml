@@ -8,35 +8,10 @@ body:
       value: |
         If you want to quickly add an event, consider [opening a Pull Request](https://github.com/OSS-Globe/Events/blob/main/data/events.json) directly instead!
         Otherwise, provide the details below and a maintainer will add it.
-  - type: input
-    id: event-name
-    attributes:
-      label: Event Name
-      placeholder: e.g. Open Source Summit North America
-    validations:
-      required: true
-  - type: input
-    id: event-date
-    attributes:
-      label: Dates
-      placeholder: e.g. April 16-18, 2024
-    validations:
-      required: true
-  - type: input
-    id: location
-    attributes:
-      label: Location
-      placeholder: e.g. Seattle, WA (or Online)
-    validations:
-      required: true
-  - type: input
-    id: website
-    attributes:
-      label: Official Website URL
-    validations:
-      required: true
   - type: textarea
     id: description
     attributes:
-      label: Short Description
-      description: A brief summary of the event
+      label: Event Details
+      description: Provide the details of the event you'd like to add or update.
+    validations:
+      required: true
