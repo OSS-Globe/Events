@@ -39,7 +39,7 @@ export default function AmbientSystem() {
     }
 
     const nodes: Node[] = [];
-    const numNodes = 45; // Restored sparse field density
+    const numNodes = 20; // Reduced density per user request
 
     const init = () => {
       width = window.innerWidth;

@@ -24,6 +24,14 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
         width: window.innerWidth,
         height: Math.min(window.innerHeight * 0.7, 800)
       });
+      
+      // Update zoom controls dynamically if the user resizes the window
+      if (globeRef.current && globeRef.current.controls) {
+        const controls = globeRef.current.controls();
+        if (controls) {
+          controls.enableZoom = window.innerWidth < 768;
+        }
+      }
     };
     
     handleResize();
@@ -80,7 +88,7 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
         Event signals / global coordinates
       </div>
       <div
-        className="relative shrink-0 overflow-hidden rounded-full cursor-grab [filter:drop-shadow(0_24px_35px_rgba(0,0,0,0.52))] active:cursor-grabbing"
+        className="relative shrink-0 overflow-hidden rounded-full cursor-grab [filter:drop-shadow(0_24px_35px_rgba(0,0,0,0.52))] active:cursor-grabbing touch-none"
         style={{ width: globeSize, height: globeSize }}
         onMouseEnter={() => {
           if (globeRef.current && globeRef.current.controls) {
@@ -115,7 +123,9 @@ export default function EventsGlobe({ events }: { events: OSSEvent[] }) {
               if (controls) {
                 controls.autoRotate = !reduceMotion;
                 controls.autoRotateSpeed = 0.5;
-                controls.enableZoom = false;
+                // Enable zoom only for mobile viewport widths (under 768px)
+                const isMobileViewport = window.innerWidth < 768;
+                controls.enableZoom = isMobileViewport;
               }
               globeRef.current.pointOfView({ lat: 40, lng: 10, altitude: 2 });
             };
