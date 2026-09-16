@@ -3,11 +3,6 @@ description: Request an open-source event to be added to the atlas
 title: "[EVENT]: "
 labels: ["event-data"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        If you want to quickly add an event, consider [opening a Pull Request](https://github.com/OSS-Globe/Events/blob/main/data/events.json) directly instead!
-        Otherwise, provide the details below and a maintainer will add it.
   - type: textarea
     id: description
     attributes:
