@@ -3,6 +3,7 @@ import { Inter, Outfit, JetBrains_Mono } from "next/font/google";
 import { ArrowUpRight } from "lucide-react";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
+import AmbientSystem from "@/components/AmbientSystem";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -35,6 +36,7 @@ export default function RootLayout({
         className={`${inter.variable} ${outfit.variable} ${jetbrainsMono.variable} antialiased bg-base text-primary min-h-screen flex flex-col`}
       >
         <Navigation />
+        <AmbientSystem />
         <main className="flex-1 flex flex-col">
           {children}
         </main>
