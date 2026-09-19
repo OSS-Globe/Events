@@ -2220,5 +2220,34 @@
       "status": "tba"
     },
     "lastUpdated": "2026-09-12"
+  },
+  {
+    "id": "scipy-india-2026",
+    "name": "SciPy India 2026",
+    "description": "An international scientific computing and open source software conference.",
+    "placeholderDescription": false,
+    "type": "conference",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-20",
+    "location": {
+      "city": "Chennai",
+      "country": "India",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "online": false,
+    "hybrid": false,
+    "officialWebsite": "https://scipy.in/2026/",
+    "registrationLink": null,
+    "organizer": "SciPy India",
+    "tags": [
+      "python",
+      "scientific-computing",
+      "open-source"
+    ],
+    "cfp": {
+      "status": "open"
+    },
+    "lastUpdated": "2026-09-16"
   }
 ]
